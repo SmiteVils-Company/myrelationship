@@ -1,4 +1,8 @@
-body {background: #E84C3D; width: 100%; height: 100%;}
+body {
+	background: #E84C3D; width: 100%; height: 100%;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 40px;
+}
 div {outline: 2px green solid;}
 div#welcome-text-block {display: table; width: 100%; height: 100%; position: fixed;}
 p#welcome-text {
@@ -8,4 +12,5 @@ p#welcome-text {
 	text-align: center;
 	vertical-align: middle;
 	color: #fff;
+	overflow: auto;
 }
